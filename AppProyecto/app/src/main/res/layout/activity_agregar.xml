@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Agregar">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="ALTA PRODUCTOS"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editCod"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:ems="10"
+        android:hint="CODIGO"
+        android:inputType="text"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="NOMBRE"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editPre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="PRECIO"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorAccent"
+        android:text="REGISTRAR" />
+
+</LinearLayout>
+
